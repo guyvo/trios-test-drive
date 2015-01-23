@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B19A79881A725F13002A9959 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B19A79871A725F13002A9959 /* main.c */; };
 		B19A798A1A725F13002A9959 /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B19A79891A725F13002A9959 /* test.1 */; };
+		B19A79971A7262D4002A9959 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B19A79921A7262D4002A9959 /* main.c */; };
+		B19A799C1A726522002A9959 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = B19A79991A726522002A9959 /* TriosModel.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,11 @@
 
 /* Begin PBXFileReference section */
 		B19A79841A725F13002A9959 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
-		B19A79871A725F13002A9959 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B19A79891A725F13002A9959 /* test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test.1; sourceTree = "<group>"; };
+		B19A79921A7262D4002A9959 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../../../../../Volumes/code/TriosBase/main.c; sourceTree = "<group>"; };
+		B19A79991A726522002A9959 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
+		B19A799A1A726522002A9959 /* TriosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosModel.h; sourceTree = "<group>"; };
+		B19A799B1A726522002A9959 /* TriosNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosNames.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,10 @@
 		B19A79861A725F13002A9959 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				B19A79871A725F13002A9959 /* main.c */,
+				B19A79991A726522002A9959 /* TriosModel.c */,
+				B19A799A1A726522002A9959 /* TriosModel.h */,
+				B19A799B1A726522002A9959 /* TriosNames.h */,
+				B19A79921A7262D4002A9959 /* main.c */,
 				B19A79891A725F13002A9959 /* test.1 */,
 			);
 			path = test;
@@ -117,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B19A79881A725F13002A9959 /* main.c in Sources */,
+				B19A79971A7262D4002A9959 /* main.c in Sources */,
+				B19A799C1A726522002A9959 /* TriosModel.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +235,7 @@
 				B19A798F1A725F13002A9959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
